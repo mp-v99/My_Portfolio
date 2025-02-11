@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+ 		box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid red;
+}
+
+body > div {
+    flex: 1;
+    border: 5px solid green;
+}
+
+.content {
+    flex-grow: 5;
+}
